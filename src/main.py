@@ -3,4 +3,5 @@
 # from parts import part3;
 # from parts import part4;
 # from parts import part5;
-from parts import part6;
+# from parts import part6;
+from parts import part7;
