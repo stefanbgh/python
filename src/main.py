@@ -13,3 +13,4 @@
 # from parts import nested_loop
 # from parts import collections
 # from parts import collections2d
+from parts import dictionaries
