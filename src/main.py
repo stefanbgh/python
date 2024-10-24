@@ -20,4 +20,6 @@
 # from parts import membership_operator
 # from parts import list_comprehension
 # from parts import match_case
-from parts import modules
+# from parts import modules
+# from parts import scope
+from parts import scope
