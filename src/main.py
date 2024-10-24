@@ -23,5 +23,6 @@
 # from parts import modules
 # from parts import scope
 # from parts import scope
-from parts import name_main
-name_main.fn() # without this line, fn() doesn't run
+# from parts import name_main
+# name_main.fn() # without this line, fn() doesn't run
+from parts import class_variables
