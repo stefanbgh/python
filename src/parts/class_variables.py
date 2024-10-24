@@ -10,6 +10,7 @@ class User:
         self.last_name = last_name
         self.email = email
         self.password = password
+        User.year += 1
 
     def get_info(self):
         return f"First Name: {self.first_name}\nLast Name: {self.last_name}\nEmail: {self.email}\nPassword: {self.password}"
@@ -17,6 +18,10 @@ class User:
     @staticmethod
     def fn():
         return "My parent is the User"
+    
+    @classmethod
+    def get_year(cls):
+        return f"{cls.year}"
 
 user1 = User("Stefan", "Blagojevic", "stefan@gmail.com", "qwerty")
 
@@ -26,5 +31,6 @@ sm = User.fn()
 print(res)
 print("------------------------")
 print(sm)
+print(f"Year: {User.get_year()}")
 
 print("------------------------")
