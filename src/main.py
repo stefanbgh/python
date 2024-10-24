@@ -19,4 +19,5 @@
 # from parts import keyword_arguments
 # from parts import membership_operator
 # from parts import list_comprehension
-from parts import match_case
+# from parts import match_case
+from parts import modules
