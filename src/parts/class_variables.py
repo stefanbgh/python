@@ -1,6 +1,7 @@
 ### 47 ###
 # class
 
+print("------------------------")
 class User:
     year = 2024
 
@@ -12,8 +13,18 @@ class User:
 
     def get_info(self):
         return f"First Name: {self.first_name}\nLast Name: {self.last_name}\nEmail: {self.email}\nPassword: {self.password}"
+    
+    @staticmethod
+    def fn():
+        return "My parent is the User"
 
 user1 = User("Stefan", "Blagojevic", "stefan@gmail.com", "qwerty")
 
 res = user1.get_info()
+sm = User.fn()
+
 print(res)
+print("------------------------")
+print(sm)
+
+print("------------------------")
