@@ -17,4 +17,5 @@
 # from parts import functions
 # from parts import default_arguments
 # from parts import keyword_arguments
-from parts import membership_operator
+# from parts import membership_operator
+from parts import list_comprehension
